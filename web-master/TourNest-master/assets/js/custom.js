@@ -130,8 +130,8 @@ $(document).ready(function(){
             autoplay:true,
             smartSpeed:1000,
             
-            //nav:false,
-            //navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+            // nav:false,
+            // navText:["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
             
             dots:true,
             autoplayHoverPause:true,

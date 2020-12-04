@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/signup.css">
+
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.14.0-web/css/all.css"> 
+    
+    <title>Đăng ký</title>
+</head>
+<body>
+    <div class="container">
+        <section>
+            <div class="contentBx">
+                <div class="formBx">
+                    <h2>Đăng ký</h2>
+                    <form>
+                        <div class="inputBx">
+                            <span>Tên đăng nhập</span>
+                            <input type="text" id="userName" onblur="checkValid()">
+                            <div id="notifyUser"></div>
+                        </div>
+                        <div class="inputBx">
+                            <span>Mật khẩu</span>
+                            <input type="password" id="passWord" onblur="checkValid()">
+                            <div id="notifyPassWord"></div>
+                        </div>
+                        <div class="inputBx">
+                            <span>Nhập lại mật khẩu</span>
+                            <input type="password" id="rePassWord" onblur="checkValid()">
+                            <div id="notifyRePassWord"></div>
+                        </div>
+                        <div class="inputBx">
+                            <span>Địa chỉ email</span>
+                            <input type="email" id="email" onblur="checkValid()">
+                            <div id="notifyEmail"></div>
+                        </div>
+                        <div class="inputBx">
+                            <span>Số điện thoại</span>
+                            <input type="text" id="numberPhone" onblur="checkNumberPhone()">
+                            <div id="notifyNumberPhone"></div>
+                        </div>
+                        <div class="inputBx">
+                            <span>Họ tên</span>
+                            <input type="text" id="name" onblur="checkName()">
+                            <div id="notifyName"></div>
+                        </div>
+                        <div class="inputBx">
+                            
+                            <input type="submit" id="submit" value="Đăng ký">
+                            
+                        </div>
+                        <div class="inputBx">
+                            <p>Đã có tài khoản? <a href="login.html">Đăng nhập</a></p>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </section>
+        
+    </div>
+    <script  src="assets/js/signup.js"></script> 
+</body>
+</html>

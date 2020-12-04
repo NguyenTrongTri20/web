@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/login.css">
+
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.14.0-web/css/all.css"> 
+    <title>Đăng nhập</title>
+</head>
+<body>
+    <div class="containner">
+        <section>
+            <div class="imgBx">
+                <img src="assets/images/login/imgBG.jpg" alt="image">
+            </div>
+            <div class="contentBx">
+                <div class="formBx">
+                    <h2>Đăng nhập</h2>
+                    <form>
+                        <div class="inputBx">
+                            <span>Tài khoản</span>
+                            <input type="text" id="userName" onblur="check()">
+                            <p class="notify" id="notifyUser"></p>
+                        </div>
+                        <div class="inputBx">
+                            <span>Mật khẩu</span>
+                            <input type="password" id="passWord"  onblur="check()">
+                            <p class="notify" id="notifypassWord" ></p>
+                        </div>
+                        <div class="remember">
+                            <label><input type="checkbox">Remember me</label>
+                        </div>
+                        <div class="inputBx">
+                            
+                            <input type="submit" id="submit" value="Đăng nhập">
+                            
+                        </div>
+                        <div class="inputBx">
+                            <p>Chưa có tài khoản? <a href="signup.html">Đăng ký</a></p>
+                        </div>
+                    </form>
+                    <h3>Đăng nhập với tài khoản mạng xã hội</h3>
+                    <ul class="social">
+                        <li><i class="fab fa-facebook-square"></i></li>
+                        <li><i class="fab fa-twitter-square"></i></li>
+                        <li><i class="fab fa-instagram-square"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="assets/js/login.js"></script>
+</body>
+</html>

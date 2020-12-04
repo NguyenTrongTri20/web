@@ -800,7 +800,7 @@ html,body{
 .discount-offer {
     padding: 120px 0;
     position: relative;
-    background: url(../../assets/images/home/offer-timer.jpg)no-repeat center fixed;
+    background: url(../../assets/images/home/panorama-1993645.jpg)no-repeat center fixed;
     background-size: cover;
     z-index: 1;
 }
@@ -1149,6 +1149,7 @@ html,body{
     margin-top: 31px;
     text-transform: initial;
     line-height: 2;
+    
 }
 
 .packages-review.special-offer-review {
